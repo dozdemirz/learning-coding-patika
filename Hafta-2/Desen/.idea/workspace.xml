@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0842dd41-1f8f-42b7-98ac-981965a64a56" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../AsalSayiMetot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsalSayiMetot/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsalSayiMetot/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsalSayiMetot/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsalSayiMetot/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsalSayiMetot/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsalSayiMetot/AsalSayiMetot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AsalSayiMetot/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GelismisHesapMakinesi/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GelismisHesapMakinesi/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GelismisHesapMakinesi/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GelismisHesapMakinesi/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GelismisHesapMakinesi/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GelismisHesapMakinesi/GelismisHesapMakinesi.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GelismisHesapMakinesi/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrom/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrom/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrom/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrom/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrom/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrom/Palindrom.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Palindrom/src/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2VdV8hwRIBRDUp0K2a2fzYRycQn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ozdem/Desktop/patika/Hafta 1/Desen/src/Main.java&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0842dd41-1f8f-42b7-98ac-981965a64a56" name="Changes" comment="" />
+      <created>1695165788339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695165788339</updated>
+    </task>
+    <servers />
+  </component>
+</project>
