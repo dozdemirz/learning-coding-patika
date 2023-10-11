@@ -9,7 +9,7 @@ public class Main {
         int ask = input.nextInt();
 
         try {
-            System.out.println(arr[ask - 1]);
+            System.out.println(ask + ". indeksteki karakter: " + (arr[ask]));
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(e.getMessage());
             System.out.println("Geçersiz indeks. Lütfen 0 ile" + arr.length + " arasında bir sayı giriniz.");
