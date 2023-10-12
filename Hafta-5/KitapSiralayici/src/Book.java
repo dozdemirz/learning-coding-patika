@@ -20,4 +20,11 @@ public class Book  {
         return page;
     }
 
+    public String getAuthor() {
+        return author;
+    }
+
+    public int getYear() {
+        return year;
+    }
 }

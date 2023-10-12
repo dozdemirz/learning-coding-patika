@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("Kitapların A'dan Z'ye sıralaması: ");
         for (Book book : bookSet) {
-            System.out.println(book.getName());
+            System.out.println("Kitap ismi: " + book.getName() + "     Sayfa sayısı: " + book.getPage() + "     Yazar: " + book.getAuthor() + "     Basım Yılı: " + book.getYear());
         }
         System.out.println("------------------------------------");
 
@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println("Kitapların sayfa sayısına göre sıralanması: ");
         for (Book book : pageSort) {
-            System.out.println(book.getName());
+            System.out.println("Kitap ismi: " + book.getName() + "     Sayfa sayısı: " + book.getPage() + "     Yazar: " + book.getAuthor() + "     Basım Yılı: " + book.getYear());
         }
     }
 }
