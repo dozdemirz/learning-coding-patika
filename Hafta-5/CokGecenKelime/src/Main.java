@@ -22,7 +22,7 @@ public class Main {
                 sayi.put(kelime, sayi.get(kelime) + 1);
             }
         }
-
+xb
         int enCokSayi = 0;
         String enCokGecen = "";
         for (String kelime : sayi.keySet()) {
