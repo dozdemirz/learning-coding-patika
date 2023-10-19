@@ -9,8 +9,8 @@ Merhaba! Bu depo benim yazılım geliştirmeye olan tutkumu ve Patika+ Bootcamp 
 Aşağıda, bu depoda bulunan projeler ve ödevlerin bir listesi bulunmaktadır:
 
 1. Java ile programlama örnekleri
-2. Web geliştirme için JavaScript projeleri
-3. HTML ve CSS ile oluşturulan basit web sayfaları
+2. HTML ve CSS ile oluşturulan basit web sayfaları
+3. Web geliştirme için JavaScript projeleri
 4. React ile yapılmış web uygulamaları
 
 ## Nasıl Kullanılır
