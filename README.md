@@ -16,6 +16,6 @@ Aşağıda, bu depoda bulunan projeler ve ödevlerin bir listesi bulunmaktadır:
 ## Nasıl Kullanılır
 
 Bu depo içindeki her bir klasör, ilgili haftaların proje veya ödevin kodlarını içerir. İlgilendiğiniz konuyu seçebilir ve ilgili klasöre giderek kodları inceleyebilirsiniz.
-İlk 8 hafta Java dilinde yazılmış programları içerir.
+- İlk 8 hafta Java dilinde yazılmış programları içerir.
 
 
