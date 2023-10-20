@@ -1,0 +1,56 @@
+1 - Abdullah Aslan
+2 - Tuba Aydın
+3 - Muhammed Fatih Batur
+4 - Yasin Derya Bilgin
+5 - Merve Bilgin
+6 - İbrahim Boz
+7 - Ethem Çağlar
+8 - Emre Dinçer
+9 - Yücel İkiz
+10 - Dilan Özdemir
+11 - Mehmet Batuhan Polat
+12 - Mustafa Erdi Reyhan
+13 - Ömer Faruk Şen
+14 - Haticenur Dinçel Şen
+15 - Burçak Yıldırım
+16 - Mahmut Yıldırım
+17 - İrfan Anık
+18 - Dilber Bilgin
+19 - Ayfer Borlu
+20 - Muhammed Eren Cansev
+21 - Atacan Erdoğan
+22 - Yasin İlkyaz
+23 - Omar Yusuf Önalan
+24 - Ali Batuhan Şahin
+25 - Erdi Salgın
+26 - Hüsnü Tığrak
+27 - Kürşad Yaprak
+28 - Cuma Yıldız
+29 - Hüseyin Cem Yücehünkar
+30 - Enes Armağan Aycan
+31 - Yakup Çelik
+32 - Cantuğ Gezginci
+33 - Cahit İsaoğlu
+34 - Cüneyt Can İşcan
+35 - Sinan Karabulut
+36 - Batuhan Kayahan
+37 - Nida Önder
+38 - Elif Tunbul
+39 - Ayşe Tunç
+40 - Furkan Turan
+41 - Bera Yılmaz
+42 - Serhat Acar
+43 - Selim Enes Ağca
+44 - Berat Agun
+45 - Zeynep Avlamaz
+46 - Yiğit Ayançang
+47 - Zekiye Hale Coşar
+48 - Yağmur İğde
+49 - Barış Karapelit
+50 - Z. Cansu Keleş
+51 - Davut Emre Oktay
+52 - Gökdeniz Özkan
+53 - Burak Öztaş
+54 - Batuhan Özüdoğru
+55 - Gamze Sakarya
+56 - Batuhan Toy
