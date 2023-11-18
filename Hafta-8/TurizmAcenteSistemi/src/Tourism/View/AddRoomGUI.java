@@ -5,6 +5,7 @@ import Tourism.Helper.Helper;
 import Tourism.Model.Hotel;
 import Tourism.Model.Room;
 import Tourism.Model.Term;
+import Tourism.Model.User;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -15,7 +16,7 @@ import java.sql.Statement;
 import java.util.Arrays;
 import java.util.List;
 
-public class UpdateHotelRoomGUI extends JFrame {
+public class AddRoomGUI extends JFrame {
     private JPanel wrapper;
     private JCheckBox cb_tv;
     private JCheckBox cb_minibar;
@@ -43,23 +44,32 @@ public class UpdateHotelRoomGUI extends JFrame {
     int hotelID;
     int roomID;
     private JPopupMenu roomMenu;
+    User user;
 
 
-    public UpdateHotelRoomGUI() {
+    public AddRoomGUI() {
 
     }
 
-    public UpdateHotelRoomGUI(int id, Boolean edit) {
+    public AddRoomGUI(int id, Boolean edit) {
         hotelID = id;
         roomID = id;
         this.add(wrapper);
-        setSize(800, 400);
+        setSize(600, 400);
         setTitle("Otel Yönetimi");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setVisible(true);
         int x = Helper.screenCenter("x", this.getSize());
         int y = Helper.screenCenter("y", this.getSize());
         setLocation(x, y);
+
+        this.addWindowListener(new java.awt.event.WindowAdapter() {
+            @Override
+            public void windowClosing(java.awt.event.WindowEvent windowEvent) {
+                EmployeeGUI employeeGUI = new EmployeeGUI(user);
+
+            }
+        });
 
         checkBoxList = new JCheckBox[]{cb_tv, cb_minibar, cb_game, cb_vault, cb_projection};
         this.connection = DBConnector.getInstance();
@@ -173,24 +183,6 @@ public class UpdateHotelRoomGUI extends JFrame {
         }
     }
 
-   /* public void loadPrices(int roomId) {
-        String query = "SELECT adult_price FROM term WHERE room_id = " + roomId;
-
-        try {
-            Statement statement = DBConnector.getInstance().createStatement();
-            ResultSet resultSet = statement.executeQuery(query);
-            if (resultSet.next()) {
-                int adultPrice = resultSet.getInt("adult_price");
-                fld_adult.setText(String.valueOf(adultPrice));
-
-                // Child price'ı hesapla ve göster
-                double childPrice = adultPrice * 0.8;
-                fld_child.setText(String.valueOf(childPrice));
-            }
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }*/
 
     public String getCurrentFeatures() {
         String features = "";

@@ -1,4 +1,4 @@
-package com.PatikaKlonu;
+package PatikaKlonu;
 
 import javax.swing.*;
 import java.awt.*;

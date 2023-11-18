@@ -1,4 +1,5 @@
-package com.PatikaKlonu.Model;
+package PatikaKlonu.Model;
 
 public class Operator extends User {
+
 }

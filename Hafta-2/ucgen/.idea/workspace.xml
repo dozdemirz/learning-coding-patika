@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05bb3a11-7817-4f13-a734-19e3ee98077a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/Helper/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/Helper/DbConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/Helper/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/Klon.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/Klon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/Model/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/Model/Patika.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/View/OperatorGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/PatikaKlonu/View/OperatorGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-7-PatikaKlonu/src/mysql-connector-j-8.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/.idea/libraries/mysql_connector_j_8_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/Helper/DBConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/Model/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/View/AdminGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/View/AdminGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/View/EmployeeGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/View/EmployeeGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/View/UpdateHotelGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/Tourism/View/UpdateHotelGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Hafta-8/TurizmAcenteSistemi/src/mysql-connector-j-8.2.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/Desen/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/Desen/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/Desen/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/Desen/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/GelismisHesapMakinesi/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/GelismisHesapMakinesi/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/GelismisHesapMakinesi/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/GelismisHesapMakinesi/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/Hava/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/Hava/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/Hava/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/Hava/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/SinifiGecme/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/SinifiGecme/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/SinifiGecme/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/SinifiGecme/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/burcHesaplama/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/burcHesaplama/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-1/burcHesaplama/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-1/burcHesaplama/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desen/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Desen/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Desen/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Desen/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaasHesaplayici/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaasHesaplayici/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaasHesaplayici/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaasHesaplayici/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaasHesaplayici/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MaasHesaplayici/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaasHesaplayici/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MaasHesaplayici/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ogrenci/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ogrenci/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-4-MaceraOyunu/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-4-MaceraOyunu/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-5/CokGecenKelime/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-5/CokGecenKelime/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hafta-6/Notepad/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hafta-6/Notepad/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2XWhsc9YKsggEPj1Cp4fTTncu3g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ozdem/Desktop/learning-coding-patika/Hafta-2/Desen"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05bb3a11-7817-4f13-a734-19e3ee98077a" name="Changes" comment="" />
+      <created>1698750950718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698750950718</updated>
+    </task>
+    <servers />
+  </component>
+</project>

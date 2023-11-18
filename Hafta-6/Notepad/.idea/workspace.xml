@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69351119-9aa2-4c1f-906a-8ca70c739105" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notlar.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/secilen_ogrenciler.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/secilen_ogrenciler_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ozdem/Desktop/learning-coding-patika/Hafta-6/Notepad",
+    "last_opened_file_path": "C:/Users/ozdem/Desktop/learning-coding-patika/Hafta-7-PatikaKlonu",
     "onboarding.tips.debug.path": "C:/Users/ozdem/Desktop/learning-coding-patika/Hafta-6/Notepad/src/Main.java"
   }
 }]]></component>

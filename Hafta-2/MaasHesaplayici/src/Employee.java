@@ -47,6 +47,7 @@ public class Employee {
     }
 
     public void print() {
+        double son = this.salary + bonus() - tax();
         System.out.println("=========================");
         System.out.println("Çalışan ismi : " + this.name);
         System.out.println("Maaşı : " + this.salary);
@@ -56,7 +57,7 @@ public class Employee {
         System.out.println("Bonus : " + bonus());
         System.out.println("Maaş artışı : " + raiseSalary());
         System.out.println("Vergi ve Bonuslar ile birlikte maaş : " + +(this.salary + bonus() - tax()));
-        System.out.println("Toplam Maaş : " + (this.salary + raiseSalary()));
+        System.out.println("Toplam Maaş : " + (son + raiseSalary()));
     }
 
 
