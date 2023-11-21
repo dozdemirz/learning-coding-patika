@@ -12,7 +12,6 @@ CREATE TABLE employee (
 INSERT INTO employee (name, birthday, email) VALUES
 ('John Doe', '1990-01-15', 'john.doe@example.com'),
 ('Jane Smith', '1985-05-20', 'jane.smith@example.com'),
--- Diğer 48 adet veri
 ('Alice Johnson', '1988-09-10', 'alice.johnson@example.com');
 
 ```
