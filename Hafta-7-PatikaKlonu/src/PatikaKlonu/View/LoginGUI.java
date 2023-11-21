@@ -1,11 +1,9 @@
-package PatikaKlonu;
+package PatikaKlonu.View;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class Klon extends JFrame {
+public class LoginGUI extends JFrame {
     private JPanel wrapper;
     private JPanel wbot;
     private JPanel wtop;
@@ -13,7 +11,7 @@ public class Klon extends JFrame {
     private JPasswordField fld_password;
     private JButton btn_login;
 
-    public Klon() {
+    public LoginGUI() {
         for (UIManager.LookAndFeelInfo info : UIManager.getInstalledLookAndFeels()) {
             if ("Nimbus".equals(info.getName())) {
                 try {
