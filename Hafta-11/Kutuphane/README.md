@@ -36,7 +36,8 @@ Projede aşağıdaki entity sınıfları ve ilişkiler tanımlanmıştır:
 **Yazar ile One-to-Many İlişkisi:**
 Bir kitabın bir yazarı olabilir, bir yazarın birden fazla kitabı olabilir.
 
-![Screenshot_1.png]
+![Kitap](Screenshot_1.png)
+
 
 
 
@@ -50,7 +51,7 @@ Bir kitabın bir yazarı olabilir, bir yazarın birden fazla kitabı olabilir.
 **Kitap ile One-to-Many İlişkisi:**
 Bir yazarın birden fazla kitabı olabilir, bir kitabın bir yazarı olabilir.
 
-![Screenshot_2.png]
+![Yazar](Screenshot_2.png)
 
 ### Kategoriler (Category)
 
@@ -61,7 +62,7 @@ Bir yazarın birden fazla kitabı olabilir, bir kitabın bir yazarı olabilir.
 **Kitap ile Many-to-Many İlişkisi:**
 Bir kategori birden fazla kitaba sahip olabilir, bir kitap birden fazla kategoriye ait olabilir.
 
-![Screenshot_4.png]
+![Kategori](Screenshot_4.png)
 
 ### Yayınevi (Publisher)
 
@@ -72,6 +73,8 @@ Bir kategori birden fazla kitaba sahip olabilir, bir kitap birden fazla kategori
 
 **Kitap ile One-to-Many İlişkisi:**
 Bir kitabın bir yayınevi olabilir, bir yayınevinin birden fazla kitabı olabilir.
+
+![Yayınevi](Screenshot_6.png)
 
 ![Screenshot_6.png]
 
@@ -85,4 +88,4 @@ Bir kitabın bir yayınevi olabilir, bir yayınevinin birden fazla kitabı olabi
 **Kitap ile One-to-Many İlişkisi:**
 Bir kitap birden fazla ödünç alma işlemine sahip olabilir, ancak her ödünç alma işlemi yalnızca bir kitaba ait olabilir.
 
-![Screenshot_3.png]
+![Ödünç](Screenshot_3.png)
