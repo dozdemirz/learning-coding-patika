@@ -39,8 +39,6 @@ Bir kitabın bir yazarı olabilir, bir yazarın birden fazla kitabı olabilir.
 ![Kitap](Screenshot_1.png)
 
 
-
-
 ### Yazar (Author)
 
 - **id:** Benzersiz yazar kimliği
@@ -76,7 +74,6 @@ Bir kitabın bir yayınevi olabilir, bir yayınevinin birden fazla kitabı olabi
 
 ![Yayınevi](Screenshot_6.png)
 
-![Screenshot_6.png]
 
 ### Kitap Ödünç Alma (BookBorrowing)
 
