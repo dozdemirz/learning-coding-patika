@@ -2,27 +2,6 @@
 
 Bu proje, bir kütüphane yönetim sistemi tasarlamayı amaçlamaktadır. Aşağıda belirtilen varlık sınıfları ve ilişkiler kullanılarak bir PostgreSQL veritabanı üzerinde uygulama geliştirilmiştir.
 
-## Dependency'ler
-
-Projeyi çalıştırmak için aşağıdaki Maven dependency'leri kullanılmıştır:
-
-```xml
-<dependencies>
-    <!-- PostgreSQL JDBC Driver -->
-    <dependency>
-        <groupId>org.postgresql</groupId>
-        <artifactId>postgresql</artifactId>
-        <version>42.2.5</version>
-    </dependency>
-
-    <!-- Hibernate JPA -->
-    <dependency>
-        <groupId>org.hibernate</groupId>
-        <artifactId>hibernate-core</artifactId>
-        <version>5.6.5.Final</version>
-    </dependency>
-</dependencies>
-```
 ## Entity Sınıfları ve İlişkiler
 Projede aşağıdaki entity sınıfları ve ilişkiler tanımlanmıştır:
 
