@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kullanıcı Bilgi Formu</title>
+  </head>
+  <body>
+    <h2>Kullanıcı Bilgi Formu</h2>
+
+    <form method="post">
+      <label for="ad">Ad:</label>
+      <input type="text" id="ad" name="ad" required />
+
+      <label for="soyad">Soyad:</label>
+      <input type="text" id="soyad" name="soyad" required />
+      <br />
+      <br />
+      <br />
+
+      <label for="email">E-posta:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="parola">Parola:</label>
+      <input type="password" id="parola" name="parola" required />
+      <br />
+      <br />
+      <br />
+
+      <label>Cinsiyet:</label>
+      <input type="radio" id="erkek" name="cinsiyet" value="Erkek" required />
+      <label for="erkek">Erkek</label>
+
+      <input type="radio" id="kadin" name="cinsiyet" value="Kadın" required />
+      <label for="kadin">Kadın</label>
+      <br />
+      <br />
+      <br />
+
+      <label for="meyve">Favori Meyve:</label>
+      <select id="meyve" name="meyve" required>
+        <option value="Elma">Elma</option>
+        <option value="Muz">Muz</option>
+        <option value="Çilek">Çilek</option>
+      </select>
+      <br />
+      <br />
+      <br />
+
+      <label for="mesaj">Mesajınız:</label>
+      <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+      <br />
+
+      <input type="submit" value="Gönder" />
+    </form>
+  </body>
+</html>
