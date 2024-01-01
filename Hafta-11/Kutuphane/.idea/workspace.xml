@@ -25,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2YlRaRbAv03qe06Bl9p8BJZgN1g" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,6 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ozdem/Desktop/learning-coding-patika/Hafta-11/Kutuphane",
     "onboarding.tips.debug.path": "C:/Users/ozdem/Desktop/learning-coding-patika/Hafta-11/Kutuphane/src/main/java/dev/patika/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
