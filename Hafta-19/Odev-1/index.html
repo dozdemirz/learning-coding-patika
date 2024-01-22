@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saat ve Karşılama Ekranı</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #ececec;
+        text-align: center;
+        margin: 50px;
+      }
+      #welcome-container {
+        background-color: #9fd3c7;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      #welcome-message {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      #clock {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      #nameInput {
+        padding: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+      }
+      #showButton {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #142d4c;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+      }
+      #analogClock {
+        width: 200px;
+        height: 200px;
+        border: 10px solid #385170;
+        border-radius: 50%;
+        position: relative;
+        margin: 0 auto;
+      }
+      #hour,
+      #minute,
+      #second {
+        position: absolute;
+        width: 50%;
+        height: 2px;
+        background-color: #333;
+        top: 50%;
+        transform-origin: 100%;
+        transform: rotate(90deg);
+        transition: transform 0.5s cubic-bezier(0.4, 2.5, 0.35, 1);
+      }
+      #minute {
+        height: 1.5px;
+        background-color: #666;
+      }
+      #second {
+        height: 1px;
+        background-color: #f95959;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="welcome-container">
+      <div id="welcome-message">Hoş geldiniz! Lütfen adınızı girin.</div>
+      <input type="text" id="nameInput" placeholder="Adınızı girin" />
+      <button id="showButton" onclick="showTimeAndWelcome()">Göster</button>
+    </div>
+    <div id="clock"></div>
+    <div id="analogClock">
+      <div id="hour"></div>
+      <div id="minute"></div>
+      <div id="second"></div>
+    </div>
+
+    <script>
+      function showTimeAndWelcome() {
+        var name = document.getElementById("nameInput").value;
+
+        if (name.trim() === "") {
+          alert("Lütfen geçerli bir isim girin.");
+          return;
+        }
+
+        var welcomeMessage = "Merhaba, " + name + "! ";
+        var currentDate = new Date();
+        var currentHour = currentDate.getHours();
+        var greeting;
+
+        if (currentHour < 12) {
+          greeting = "Günaydın";
+        } else if (currentHour < 18) {
+          greeting = "İyi günler";
+        } else {
+          greeting = "İyi akşamlar";
+        }
+
+        var currentTime = currentDate.toLocaleTimeString();
+        var currentDay = currentDate.toLocaleDateString();
+
+        var message =
+          welcomeMessage +
+          greeting +
+          "! Şu anki zaman: " +
+          currentTime +
+          " - " +
+          currentDay;
+
+        document.getElementById("welcome-message").innerText = message;
+        document.getElementById("clock").innerText = currentTime;
+
+        // Analog saat gösterimi
+        var secondHand = document.getElementById("second");
+        var minuteHand = document.getElementById("minute");
+        var hourHand = document.getElementById("hour");
+
+        var seconds = currentDate.getSeconds();
+        var minutes = currentDate.getMinutes();
+        var hours = currentDate.getHours() % 12;
+
+        var secondDeg = (seconds / 60) * 360;
+        var minuteDeg = ((minutes * 60 + seconds) / 3600) * 360;
+        var hourDeg = ((hours * 3600 + minutes * 60 + seconds) / 43200) * 360;
+
+        secondHand.style.transform = `rotate(${secondDeg}deg)`;
+        minuteHand.style.transform = `rotate(${minuteDeg}deg)`;
+        hourHand.style.transform = `rotate(${hourDeg}deg)`;
+      }
+    </script>
+  </body>
+</html>
