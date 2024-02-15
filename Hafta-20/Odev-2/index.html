@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Yapılacaklar Listesi</title>
+  </head>
+  <body>
+    <!-- Başarı mesajı toast divi -->
+    <div id="successToast" class="toast success hide">
+      <div class="toast-body">Listeye eklendi.</div>
+    </div>
+
+    <!-- Hata mesajı toast divi -->
+    <div id="errorToast" class="toast error hide">
+      <div class="toast-body">Listeye boş ekleme yapamazsınız!</div>
+    </div>
+
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+          class="mb-1"
+          alt=""
+        />
+        <h2>Yapılacaklar Listesi</h2>
+        <input type="text" id="task" placeholder="Bugün ne yapacaksın?" />
+        <button onclick="newElement()" class="button">Ekle</button>
+      </div>
+
+      <ul id="list">
+        <li>3 Litre Su İç</li>
+        <li>Ödevleri Yap</li>
+        <li>En Az 3 Saat Kodlama Yap</li>
+        <li>Yemek Yap</li>
+        <li>50 Sayfa Kitap Oku</li>
+      </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

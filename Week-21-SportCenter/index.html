@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Practice</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="navbar" id="navbar">
+      <div class="container">
+        <div class="logo">
+          <img src="/img/logo.png" alt="Logo" />
+        </div>
+        <div class="col-md-6">
+          <div class="menu">
+            <a href="#">Home</a>
+            <a href="#classesSection">Classes</a>
+            <a href="#trainers-section">Trainer</a>
+            <a href="#review-section">Review</a>
+            <a href="#contact-section">Contact</a>
+            <a class="join-us" href="#">JOIN US</a>
+          </div>
+          <div class="mobile-menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-menu">
+      <a href="#">Home</a>
+      <a href="#classesSection">Classes</a>
+      <a href="#trainers-section">Trainer</a>
+      <a href="#review-section">Review</a>
+      <a href="#contact-section">Contact</a>
+      <a class="join-us" href="#">JOIN US</a>
+    </div>
+
+    <!-- TITLE -->
+    <section class="content">
+      <div class="container">
+        <h1>Group<br />Practice<br />with Trainers</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="btn-container">
+          <a href="#" class="btn btn-primary">Sign Up</a>
+          <a href="#" class="btn btn-secondary">Details</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUMBERS -->
+    <section class="boxes">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="box">
+              <h2>305</h2>
+              <p>Courses</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box">
+              <h2>405</h2>
+              <p>Workout</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box">
+              <h2>305</h2>
+              <p>Working Hour</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="box">
+              <h2>705</h2>
+              <p>Happy Client</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLASSES -->
+
+    <div class="classes-section" id="classesSection">
+      <div class="container">
+        <h1 class="classes-title extra-bold">OUR CLASSES</h1>
+        <div class="yellow-line"></div>
+        <div class="classes-content">
+          <p id="classContent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="buttons-container">
+            <button class="class-button active" onclick="showContent('yoga')">
+              Yoga
+            </button>
+            <button class="class-button" onclick="showContent('group')">
+              Group
+            </button>
+            <button class="class-button" onclick="showContent('solo')">
+              Solo
+            </button>
+            <button class="class-button" onclick="showContent('stretching')">
+              Stretching
+            </button>
+          </div>
+          <div class="content-container" id="yogaContent">
+            <div class="text-box">
+              <h3>Why you should do Yoga?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <h3>Yoga Schedule</h3>
+              <p>Saturday-Sunday: 8:00am - 10:00am</p>
+              <p>Monday-Tuesday: 10:00am - 12:00am</p>
+              <p>Wednesday-Friday: 3:00pm - 6:00pm</p>
+            </div>
+            <div class="image-box">
+              <img class="yogapic" src="img/yoga.jpg" alt="Resim" />
+            </div>
+          </div>
+
+          <div
+            class="content-container"
+            id="groupContent"
+            style="display: none"
+          >
+            <div class="text-box">
+              <h3>Why you should do Group Content?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <h3>Group Schedule</h3>
+              <p>Saturday-Sunday: 8:00am - 10:00am</p>
+              <p>Monday-Tuesday: 10:00am - 12:00am</p>
+              <p>Wednesday-Friday: 3:00pm - 6:00pm</p>
+            </div>
+            <div class="image-box">
+              <img class="yogapic" src="img/group.webp" alt="Resim" />
+            </div>
+          </div>
+
+          <div class="content-container" id="soloContent" style="display: none">
+            <div class="text-box">
+              <h3>Why you should do Solo Class?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <h3>Solo Schedule</h3>
+              <p>Saturday-Sunday: 8:00am - 10:00am</p>
+              <p>Monday-Tuesday: 10:00am - 12:00am</p>
+              <p>Wednesday-Friday: 3:00pm - 6:00pm</p>
+            </div>
+            <div class="image-box">
+              <img class="yogapic" src="img/solo.jpg" alt="Resim" />
+            </div>
+          </div>
+
+          <div
+            class="content-container"
+            id="stretchingContent"
+            style="display: none"
+          >
+            <div class="text-box">
+              <h3>Why you should do Stretching?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <h3>Stretching Schedule</h3>
+              <p>Saturday-Sunday: 8:00am - 10:00am</p>
+              <p>Monday-Tuesday: 10:00am - 12:00am</p>
+              <p>Wednesday-Friday: 3:00pm - 6:00pm</p>
+            </div>
+            <div class="image-box">
+              <img class="yogapic" src="img/stret.webp" alt="Resim" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BMI-->
+
+    <div class="bmi-container" id="bmi-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="bmi-text">
+              <h1 class="extra-bold">BMI Calculator</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <div class="input-container">
+                <div class="input-box">
+                  <label for="height">cm:</label>
+                  <input
+                    type="text"
+                    id="height"
+                    name="height"
+                    class="form-control"
+                    placeholder="Your Height"
+                    oninput="calculateBMI()"
+                  />
+                </div>
+
+                <div class="input-box">
+                  <label for="weight">kg:</label>
+                  <input
+                    type="text"
+                    id="weight"
+                    name="weight"
+                    class="form-control"
+                    placeholder="Your Weight"
+                    oninput="calculateBMI()"
+                  />
+                </div>
+              </div>
+              <div id="bmiResult"></div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="bmi-img-box">
+              <img class="bmi-image" src="img/bmi-index.jpg" alt="BMI Image" />
+              <div class="arrow" id="arrow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="bmiResult"></div>
+
+    <!-- TRAINER -->
+    <div class="trainers-section" id="trainers-section">
+      <div class="container">
+        <h1 class="trainers-title extra-bold">Our Best Trainers</h1>
+        <div class="yellow-line"></div>
+        <div class="trainers-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="trainer-box">
+                <img src="img/trainer1.jpg" alt="Trainer 1" class="img-fluid" />
+                <div class="trainer-info">
+                  <h2>Effy Stone</h2>
+                  <p>Yoga Trainer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="trainer-box">
+                <img src="img/trainer2.jpg" alt="Trainer 2" class="img-fluid" />
+                <div class="trainer-info">
+                  <h2>Alex Turner</h2>
+                  <p>Group Trainer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="trainer-box">
+                <img src="img/trainer3.jpg" alt="Trainer 3" class="img-fluid" />
+                <div class="trainer-info">
+                  <h2>Jane Doe</h2>
+                  <p>Cardio Trainer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PURCHASE -->
+    <div class="purchase-section">
+      <div class="container">
+        <h1 class="purchase-title extra-bold">Purchase from Us</h1>
+        <div class="yellow-line"></div>
+        <p class="purchase-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row purchase-box">
+          <div class="col-md-3">
+            <div class="product-box">
+              <img src="/img/purchase1.jpg" alt="Product 1" class="img-fluid" />
+              <div class="product-info">
+                <h3>Kettlebell /5kg</h3>
+                <p>$19.99</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-box">
+              <img src="/img/purchase2.jpg" alt="Product 2" class="img-fluid" />
+              <div class="product-info">
+                <h3>Treadmill</h3>
+                <p>$24.99</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-box">
+              <img src="/img/purchase3.jpg" alt="Product 3" class="img-fluid" />
+              <div class="product-info">
+                <h3>Adjustable Dumbbell</h3>
+                <p>$29.99</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product-box">
+              <img src="/img/purchase4.jpg" alt="Product 4" class="img-fluid" />
+              <div class="product-info">
+                <h3>Kettlebell /3kg</h3>
+                <p>$39.99</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REVIEW -->
+    <div class="review-section" id="review-section">
+      <div class="container">
+        <h1 class="review-title extra-bold">Review Client</h1>
+        <div class="yellow-line"></div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row clients">
+          <div class="col-md-6 clients-container">
+            <div class="left-client">
+              <div class="client-img">
+                <img class="client" src="img/client1.jpg" alt="" />
+              </div>
+              <p class="client-name">Diet Expert<br />CFO</p>
+              <div class="ribbon-container">
+                <div class="ribbon">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis optio ipsa quam libero illo veritatis hic ad,
+                    praesentium accusantium molestias! Autem cumque recusandae
+                    dicta possimus distinctio consequatur exercitationem non
+                    quas consectetur?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 clients-container">
+            <div class="right-client">
+              <div class="client-img">
+                <img class="client" src="img/client2.jpg" alt="" />
+              </div>
+              <p class="client-name">Cardio Trainer<br />CEO</p>
+              <div class="ribbon-container">
+                <div class="ribbon">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Omnis optio ipsa quam libero illo veritatis hic ad,
+                    praesentium accusantium molestias! Autem cumque recusandae
+                    dicta possimus distinctio consequatur exercitationem non
+                    quas consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-section" id="contact-section">
+      <div class="container">
+        <h1 class="display-4 extra-bold">Contact Us</h1>
+        <div class="yellow-line"></div>
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="row">
+          <div class="col-md-6 contact-container">
+            <div class="contact-info">
+              <div class="contact-details">
+                <p>Mobile Number: +13627273</p>
+              </div>
+              <div class="contact-details">
+                <p>Email Address: demo@demo.com</p>
+              </div>
+              <div class="make-appointment">
+                <h3>Make an Appointment</h3>
+                <form>
+                  <div class="mb-3 appointment-input">
+                    <label for="name" class="form-label">Your Name:</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="name"
+                    />
+                  </div>
+                  <div class="mb-3 appointment-input">
+                    <label for="email" class="form-label">Your Email:</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                    />
+                  </div>
+                  <div class="mb-3 appointment-input">
+                    <label for="message" class="form-label"
+                      >Your Message:</label
+                    >
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="map-container">
+              <h3>Location</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2590.3376252068692!2d-31.13123623039033!3d39.45920821106638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2str!4v1706390378140"
+                width="500"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="map"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-5">
+      <div class="container">
+        <div class="footer-top">
+          <img class="footer-logo" src="img/logo.png" alt="Logo" />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-info">
+            <h3>Information</h3>
+            <ul>
+              <li>About Us</li>
+              <li>Classes</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h3>Helpful Links</h3>
+            <ul>
+              <li>Services</li>
+              <li>Supports</li>
+              <li>Terms and Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

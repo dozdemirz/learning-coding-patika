@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; 
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px; 
+}
+
+.header {
+  background-color: #f8d7da; 
+  padding: 20px;
+  border-radius: 10px; 
+  margin-bottom: 20px; 
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; 
+}
+
+.header h2 {
+  margin-bottom: 10px;
+}
+
+.header input[type="text"] {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 255, 0.3); 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 255, 0.527); 
+}
+
+#list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#list li {
+  margin-bottom: 10px;
+  text-align: left;
+  padding-left: 70px;
+}
+
+#list li {
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 255, 0.1); 
+  padding: 10px;
+  border-radius: 5px;
+  position: relative; 
+}
+
+#list li.completed {
+  text-decoration: line-through; 
+  background-color: rgba(0, 0, 255, 0.3); 
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: red; 
+}
+
+
+.toast {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  background-color: rgba(0, 0, 255, 0.3); 
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.toast.error {
+  background-color: rgba(0, 0, 255, 0.3); 
+}
+
+.toast.hide {
+  display: none;
+}
+
+.toast.show {
+  display: block;
+}
+
