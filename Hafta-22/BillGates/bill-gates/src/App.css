@@ -1,0 +1,159 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.header {
+  font-size: 32px;
+    background: #fff;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.3em;
+    color: black;
+}
+
+.header-img {
+  width: 125px;
+    height: 125px;
+    margin: 10px auto 25px;
+    border-radius: 125px;
+}
+.money{
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
+    padding: 20px;
+    
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+}
+.container {
+  
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.card {
+
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 10px 10px;
+
+  background: #f1f2f6;
+}
+
+.input {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-container {
+  max-width: 80%;
+  background-color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 15px;
+  width: auto;
+}
+
+.card-container img {
+  display: block;
+  margin: 15px auto;
+  height: 120px;
+  max-width: 90%;
+  object-fit: contain;
+  user-select: none;
+}
+
+.item-controls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 20px;
+  font-weight: 700;
+  grid-gap: 10px 10px;
+  margin-top: 25px;
+}
+
+.item-info {
+  background: white;
+}
+
+.item-name {
+  background: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.item-price {
+  font-size: 20px;
+  background: white;
+  color: #24c486;
+}
+
+.item-sell {
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 10px 12px;
+  background: linear-gradient(180deg, #f53b82, #f53b57)
+}
+
+.item-buy {
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 10px 12px;
+  background: linear-gradient(180deg, #2ecc71, #1abc9c)
+
+}
+
+.receipt {
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.receiptName {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  padding-left: 50px;
+}
+
+.receiptContainer {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+  margin-top: 20px;
+  gap: 50px;
+  color: black;
+}
+
+.receiptPrice {
+  color: #24c486;
+}
+
+.receiptLine {
+  width: 300px;
+  margin-left: 600px;
+  font-weight: bold;
+  margin-top: 20px;
+  border: none;
+  border-top: 3px solid white;
+  
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  margin-left: 600px;
+  gap: 200px;
+  color: black;
+}
